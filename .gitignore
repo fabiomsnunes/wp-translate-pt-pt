@@ -1,0 +1,6 @@
+# Artefactos de compilação de traduções (gerados a partir dos .po)
+*.mo
+
+# Sistema
+.DS_Store
+Thumbs.db
