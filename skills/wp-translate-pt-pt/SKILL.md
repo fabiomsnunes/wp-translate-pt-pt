@@ -3,7 +3,7 @@ name: wp-translate-pt-pt
 description: >-
   Traduz strings de interface do WordPress (core, plugins, temas) de inglês para
   português de Portugal (pt-PT), seguindo o glossário oficial da Comunidade e o
-  Guia de Tradutores pt_PT. Usa este skill SEMPRE que o utilizador entregar um
+  Guia de Tradutores pt_PT. Usa esta skill SEMPRE que o utilizador entregar um
   ficheiro .po/.pot exportado do translate.wordpress.org (GlotPress) para
   preencher, colar ou despejar strings em inglês para traduzir, pedir a tradução
   pt-PT de termos de UI, falar em traduzir o WordPress / um plugin / um tema para
@@ -24,7 +24,7 @@ marcas de género.
 
 ## Referências (fonte única de verdade)
 
-Ambas vivem na pasta deste skill, em `references/`. São a fonte canónica —
+Ambos vivem na pasta desta skill, em `references/`. São a fonte canónica —
 atualizam-se substituindo o ficheiro, não editando à mão.
 
 - **Glossário**: `references/glossario-pt-pt.csv`
@@ -141,7 +141,7 @@ já foram traduzidos pela comunidade — é a melhor fonte de consistência. Se 
 dentro de uma instalação WordPress, os language packs instalados vivem em
 `wp-content/languages/plugins/<slug>-pt_PT.po`; podes também consultar o projeto no
 próprio translate.wordpress.org. Quando um termo aparecer já traduzido num pack
-validado, segue-o em vez de inventar (ex.: num plugin do ecossistema AI, `provider`
+validado, segue-o em vez de inventar (ex.: num plugin do ecossistema de IA, `provider`
 estava traduzido como "fornecedor" num pack vizinho — seguir o que já existe mantém
 a coerência entre plugins).
 
@@ -226,7 +226,7 @@ PT: Opções guardadas.
 **Exemplo 2 — com placeholder e HTML:**
 ```
 EN: You are about to permanently delete %d items. <strong>This cannot be undone.</strong>
-PT: Está prestes a eliminar definitivamente %d itens. <strong>Esta ação não pode ser anulada.</strong>
+PT: Está prestes a eliminar definitivamente %d itens. <strong>Esta acção não pode ser anulada.</strong>
 ```
 (`you are about to` → "está prestes a"; `delete` → "eliminar"; `undo` → "anular"; placeholder e `<strong>` preservados.)
 

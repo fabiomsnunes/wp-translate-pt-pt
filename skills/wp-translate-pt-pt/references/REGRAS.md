@@ -4,7 +4,7 @@
 > Glossário oficial: [`glossario-pt-pt.csv`](./glossario-pt-pt.csv) (fonte única de verdade, descarregado de translate.wordpress.org — não editar à mão; para atualizar, substituir o ficheiro).
 
 ## Normas gerais (processo)
-- Fontes de referência, por ordem: o **glossário**, a **tabela consolidada** da Comunidade (pesquisa de termos no site oficial) e a ferramenta de **consistência** entre projectos.
+- Fontes de referência, por ordem: o **glossário**, a **tabela consolidada** da Comunidade (pesquisa de termos no site oficial) e a ferramenta de **consistência** entre projetos.
 - **Em caso de dúvida, não traduzir.** Expor a dúvida primeiro no Palheta (blog de discussão da Comunidade) ou no canal `#traducao` do Slack (`wp-portugal.slack.com`). Aqui isto traduz-se no `⚠️`: marco e tu decides/discutes.
 - **Nunca usar tradução automática** (Google Translate). Sugestões só são aprovadas se coerentes com o guia, o glossário e a tabela consolidada.
 - **Não decidir alterações a traduções existentes** unilateralmente. Mudar um termo já consolidado exige debate e consenso nos canais da Comunidade — avisar o grupo com os motivos.
@@ -16,8 +16,8 @@
 - Acrónimos: **sem pontos e sem plural** — `PDF`, `URL`, `ID`, `HTML` (nunca `URLs`, `PDFs`, `PDF's`).
 
 ## Formalidade e tratamento
-- **Infinitivo impessoal** sempre que possível: "Guardar alterações", "Eliminar artigo", "Iniciar sessão" — não "Guarde", "Elimine". (Infinitivo impessoal: descreve a acção sem a vincular a tempo, modo ou pessoa.)
-- Quando é mesmo preciso dirigir-se ao utilizador, usar verbo na 3.ª pessoa do singular, registo formal — **sem** "você": "Tem a certeza que pretende…", "Não tem permissão para…".
+- **Infinitivo impessoal** sempre que possível: "Guardar alterações", "Eliminar artigo", "Iniciar sessão" — não "Guarde", "Elimine". (Infinitivo impessoal: descreve a ação sem a vincular a tempo, modo ou pessoa.)
+- Quando é mesmo preciso dirigir-se ao utilizador, usar verbo na 3.ª pessoa do singular, registo formal — **sem** "você": "Tem a certeza de que pretende…", "Não tem permissão para…".
 - **Eliminar referências de género** (gestão mais simples, tradução mais inclusiva). Preferir formas neutras a "bem-vindo/a". Quando inevitável, seguir o glossário (ex.: `Mine` → "Meu", invariável).
 
 ## Maiúsculas
@@ -31,7 +31,7 @@
 
 ## Pontuação e espaços (convenção tipográfica geral — não consta do guia)
 - Sem espaço antes de `:` `;` `!` `?`.
-- Reticências `…` (um carácter), não `...`.
+- Reticências: usar o símbolo `…`, não três pontos seguidos (`...`).
 - Aspas: preferir as do original quando coerentes; nas strings de UI manter o que o contexto exigir.
 
 ## Estilo

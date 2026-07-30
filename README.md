@@ -47,7 +47,7 @@ skills/wp-translate-pt-pt/
 └── scripts/
     ├── check-placeholders.py     Valida paridade de placeholders num .po
     ├── check-glossary.sh         Diz se o glossário falta ou está obsoleto (>30 dias)
-    └── update-glossary.sh        Refresca o glossário a partir do translate.wordpress.org
+    └── update-glossary.sh        Atualiza o glossário a partir do translate.wordpress.org
 ```
 
 ## Atualizar o glossário

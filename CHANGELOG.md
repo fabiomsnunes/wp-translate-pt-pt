@@ -1,13 +1,13 @@
 # Changelog
 
 Todas as alterações relevantes a esta skill são documentadas aqui.
-O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e o
-versionamento é [SemVer](https://semver.org/lang/pt-BR/).
+O formato segue o [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) e o
+versionamento é [SemVer](https://semver.org/).
 
 ## [0.1.0]
 
 ### Adicionado
-- Skill `traducao-pt-pt` para tradução EN → pt-PT de strings de interface do
+- Skill `wp-translate-pt-pt` para tradução EN → pt-PT de strings de interface do
   WordPress, com dois modos: ficheiro `.po` do GlotPress e strings soltas no chat.
 - Glossário oficial (`references/glossario-pt-pt.csv`) — snapshot do
   translate.wordpress.org.
