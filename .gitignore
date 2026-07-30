@@ -1,6 +1,10 @@
 # Artefactos de compilação de traduções (gerados a partir dos .po)
 *.mo
 
+# Carimbo de frescura do glossário — é estado local de cada instalação.
+# Sem ele, uma instalação nova reporta STALE e a skill pergunta se quer atualizar.
+skills/wp-translate-pt-pt/references/.glossary-updated
+
 # Sistema
 .DS_Store
 Thumbs.db

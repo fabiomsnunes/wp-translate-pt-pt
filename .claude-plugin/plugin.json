@@ -1,0 +1,13 @@
+{
+  "name": "wp-translate-pt-pt",
+  "displayName": "Tradução pt-PT (WordPress)",
+  "description": "Traduz strings de interface do WordPress (core, plugins, temas) de inglês para português de Portugal, seguindo o glossário oficial da Comunidade e o Guia de Tradutores pt_PT.",
+  "author": {
+    "name": "Fábio Nunes",
+    "url": "https://github.com/fabiomsnunes"
+  },
+  "homepage": "https://github.com/fabiomsnunes/wp-translate-pt-pt",
+  "repository": "https://github.com/fabiomsnunes/wp-translate-pt-pt",
+  "license": "GPL-2.0-or-later",
+  "keywords": ["wordpress", "i18n", "l10n", "pt-pt", "glotpress", "traducao"]
+}

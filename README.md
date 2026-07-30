@@ -22,8 +22,25 @@ glossário oficial por pesquisa antes de fixar cada termo.
 
 ## Instalação
 
-A skill é uma pasta. Copia `skills/wp-translate-pt-pt/` para a tua pasta de skills do
-Claude Code:
+### Como plugin (recomendado — recebe atualizações)
+
+Dentro do Claude Code:
+
+```
+/plugin marketplace add fabiomsnunes/wp-translate-pt-pt
+/plugin install wp-translate-pt-pt@fabiomsnunes
+/reload-plugins
+```
+
+Para receber as atualizações automaticamente, liga o auto-update uma vez: `/plugin`
+→ separador **Marketplaces** → escolhe `fabiomsnunes` → **Enable auto-update**. Vem
+desligado por omissão em marketplaces de terceiros. Sem ele, atualizas à mão com
+`/plugin marketplace update fabiomsnunes` seguido de `/plugin update`.
+
+### Como cópia manual
+
+Também podes copiar a pasta `skills/wp-translate-pt-pt/` para a tua pasta de skills
+do Claude Code — mas assim ficas com um snapshot que nunca mais é atualizado:
 
 ```bash
 # Global (todos os projetos):
@@ -33,12 +50,16 @@ cp -r skills/wp-translate-pt-pt ~/.claude/skills/
 cp -r skills/wp-translate-pt-pt /caminho/do/projeto/.claude/skills/
 ```
 
-O Claude Code passa a invocá-la automaticamente quando entregas um `.po` para
-traduzir ou pedes traduções pt-PT.
+Em qualquer dos casos, o Claude Code passa a invocá-la automaticamente quando
+entregas um `.po` para traduzir ou pedes traduções pt-PT.
 
 ## Conteúdo
 
 ```
+.claude-plugin/
+├── plugin.json                   Metadados do plugin
+└── marketplace.json              Catálogo (aponta para o próprio repo)
+
 skills/wp-translate-pt-pt/
 ├── SKILL.md                      Instruções e fluxo de trabalho
 ├── references/

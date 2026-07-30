@@ -1,0 +1,19 @@
+{
+  "name": "fabiomsnunes",
+  "description": "Skills de WordPress e pt-PT mantidas por Fábio Nunes (WPlus).",
+  "owner": {
+    "name": "Fábio Nunes",
+    "url": "https://github.com/fabiomsnunes"
+  },
+  "plugins": [
+    {
+      "name": "wp-translate-pt-pt",
+      "source": "./",
+      "displayName": "Tradução pt-PT (WordPress)",
+      "description": "Traduz strings de interface do WordPress (core, plugins, temas) de inglês para português de Portugal, seguindo o glossário oficial da Comunidade e o Guia de Tradutores pt_PT.",
+      "category": "wordpress",
+      "tags": ["wordpress", "i18n", "l10n", "pt-pt", "glotpress"],
+      "license": "GPL-2.0-or-later"
+    }
+  ]
+}
