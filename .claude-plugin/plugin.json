@@ -1,5 +1,6 @@
 {
   "name": "wp-translate-pt-pt",
+  "version": "0.1.0",
   "displayName": "Tradução pt-PT (WordPress)",
   "description": "Traduz strings de interface do WordPress (core, plugins, temas) de inglês para português de Portugal, seguindo o glossário oficial da Comunidade e o Guia de Tradutores pt_PT.",
   "author": {
